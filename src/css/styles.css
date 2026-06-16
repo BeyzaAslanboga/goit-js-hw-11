@@ -16,3 +16,63 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.hidden {
+  display: none;
+}
+/* Search Form */
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px auto;
+}
+.search-form button {
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #6c8cff;
+}
+.search-form input {
+  width: 272px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* Gallery */
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 360px;
+  border: 1px solid #808080;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.loader {
+  text-align: center;
+  margin-top: 20px;
+}
